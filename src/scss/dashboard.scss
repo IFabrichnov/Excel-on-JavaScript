@@ -3,7 +3,7 @@
 
 .db {
 
-  &__header{
+  &__header {
     position: fixed;
     left: 0;
     right: 0;
@@ -15,7 +15,6 @@
     background: #fff;
     box-shadow: 0 2px 5px 2px rgba(60, 64, 67, 0.15);
     z-index: 1000;
-
   }
 
   &__new {
@@ -59,7 +58,7 @@
     justify-content: space-between;
     color: #202124;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 10px;
     padding: 0 12px;
   }
@@ -91,4 +90,5 @@
       }
     }
   }
+
 }
